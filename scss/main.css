@@ -381,10 +381,8 @@
 }
 
 .About .row .img .icons .icon:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-box-shadow: 3px 3px 10px #2A69B4, -3px -3px 10px #2A69B4;
-          box-shadow: 3px 3px 10px #2A69B4, -3px -3px 10px #2A69B4;
+  -webkit-box-shadow: 3px 3px 8px #2A69B4, -3px -3px 8px #2A69B4;
+          box-shadow: 3px 3px 8px #2A69B4, -3px -3px 8px #2A69B4;
   border: 2px solid transparent;
   -webkit-transition: 0.3s linear;
   transition: 0.3s linear;

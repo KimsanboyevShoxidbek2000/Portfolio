@@ -32,7 +32,7 @@
    $color-shadow: #999 ;
    $color-telegram:#02C38A;
    $color-linkend:#2A69B4;
-   $color-instagram:#FF706A;
+   $color-instagram:red;
    $color-fa:#2A69B4;
 
    
@@ -249,7 +249,7 @@
            z-index: 0;
          
           
-           border-top : 380px  solid $color-bg_color ;
+           border-top : 380px  solid $color-hover ;
            border-left: 320px solid transparent;
          }
       
@@ -413,10 +413,10 @@
              cursor:pointer;
        
               &:hover{
-                transform: scale(1.1);
+                
                 box-shadow:
-              3px 3px 10px $color-hover,
-              -3px -3px 10px $color-hover;
+              3px 3px 8px $color-hover,
+              -3px -3px 8px $color-hover;
               border: 2px solid transparent;
               transition: 0.3s linear ;
               border-radius: 50%;
