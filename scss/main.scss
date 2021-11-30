@@ -239,19 +239,8 @@
           position: relative;
           z-index: 2;
           width: 377px;
-          // height: 180px;
-          border-radius: 0  0  0 45% ;
-          &::before{
-            content: '';
-           position:absolute;
-           top: -24px;
-           right: -24px;
-           z-index: 0;
          
-          
-           border-top : 380px  solid $color-hover ;
-           border-left: 320px solid transparent;
-         }
+        
       
         
          }
@@ -259,9 +248,9 @@
            position: absolute;
            z-index: 1;
            width: 100%;
-           border-radius:  0  0  0 45% ;
-           border-top: 4px solid $color-text;
-           border-right: 4px solid $color-text  ;
+
+           border-radius:0 0 0 45%;
+           
          
         }
       }
